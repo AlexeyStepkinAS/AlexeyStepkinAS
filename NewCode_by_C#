@@ -1,0 +1,28 @@
+var name = "София";
+var x = 9;
+var wife = false;
+var weight = 3.5;
+var a = 3.14f;
+var c = 1005.8m;
+
+Console.WriteLine($"Имя: {name}");
+Console.WriteLine($"Возраст: {x} дней");
+Console.WriteLine($"Вес: {weight} кг");
+Console.WriteLine($"Замужем: {wife}");
+Console.WriteLine(a);
+Console.WriteLine(c);
+Console.WriteLine(4 + 7);
+
+Console.Write("Введите имя: ");
+string? name3 = Console.ReadLine();
+
+Console.Write("Введите возраст: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите рост: ");
+double height = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Введите размер зарплаты: ");
+decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+Console.WriteLine($"Имя: {name3}  Возраст: {age}  Рост: {height}м  Зарплата: {salary}$");
